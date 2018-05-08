@@ -1,0 +1,26 @@
+.movieCard {
+  max-width: 200px;
+}
+
+.stars {
+  padding-top: 10px;
+  width: 100%;
+  display: inline-block;
+}
+span.glyphicon {
+  padding: 5px;
+}
+.glyphicon-star-empty {
+  color: #9d9d9d;
+}
+.glyphicon-star-empty,
+.glyphicon-star {
+  font-size: 18px;
+}
+.glyphicon-star {
+  color: #FD4;
+  transition: all .25s;
+}
+.glyphicon-star:hover {
+  transform: rotate(-15deg) scale(1.3);
+}

@@ -1,0 +1,8 @@
+
+  <mat-card class="movieCard" *ngFor="let movie of movies" flex>
+    <img mat-card-image src='../assets/{{movie.image}}' alt="movie poster" flex>
+    <mat-card-content flex>
+      <h2>{{movie.title}}</h2>
+      <p>{{movie.releaseDate}}</p>
+    </mat-card-content>
+  </mat-card>
